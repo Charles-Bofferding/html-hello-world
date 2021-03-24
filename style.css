@@ -1,0 +1,50 @@
+body {
+    background-color: grey;
+}
+
+li {
+    border: solid black 1px;
+    display: inline;
+    background-color: #299936;
+    color: #78FF88;
+    font-size: 40px;
+}
+
+header {
+    text-align: center;
+    font-size: 60px;
+}
+
+#sithsect{
+    background-color: #E01125;
+}
+
+#benesect{
+    background-color:#973499;
+}
+
+#sithim, #beneim{
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: green;
+}
+
+#intro {
+    border: solid black 0px;
+}
+
+section {
+    border: solid black 2px;
+}
+
+p {
+    color: black;
+    background-color: white;
+    display: block;
+}
