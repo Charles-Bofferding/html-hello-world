@@ -1,5 +1,3 @@
-let user
-
 function sithCheck(){
     let theCheck = prompt('Peace is a lie, there is only _____')
 
@@ -40,6 +38,21 @@ function confirmBeneF(){
     }
 }
 
-function userValidation(){
+function imageRepeat(){
+    let porgRating = prompt('Please rate this website from 1 to 5 porgs');
+
+    while(porgRating >= 6 || porgRating <= 0){
+        porgRating = prompt('Please rate this website from 1 to 5 porgs and input a valid answer');
+    }
+
+
+    for (i = 0; i < 5; i++){
+        if(i < porgRating){
+            document.write('<img id="porgIm" src="https://www.pinclipart.com/picdir/middle/523-5231077_how-to-draw-porg-from-star-wars-star.png"> ');
+        } else {
+            document.write('<img id="porgIm" src="https://www.clipartmax.com/png/middle/190-1901258_chicken-clipart-cooked-steak-g%C3%A4nsebraten-clipart.png"> ');
+        }
+
+    }
 
 }

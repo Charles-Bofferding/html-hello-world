@@ -7,14 +7,14 @@ li {
     display: inline;
     background-color: #299936;
     color: #78FF88;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 
 
 header {
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
 }
 
 #sithsect{
@@ -35,6 +35,15 @@ header {
     margin-right: auto;
     opacity: 1;
     
+}
+
+#porgIm{
+    width: 15%;
+    text-align: center;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
 }
 
 nav {
