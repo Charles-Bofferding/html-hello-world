@@ -10,6 +10,8 @@ li {
     font-size: 40px;
 }
 
+
+
 header {
     text-align: center;
     font-size: 60px;
@@ -17,10 +19,12 @@ header {
 
 #sithsect{
     background-color: #E01125;
+    content-visibility : false;
 }
 
 #benesect{
     background-color:#973499;
+    content-visibility : true;
 }
 
 #sithim, #beneim{
@@ -29,6 +33,8 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    opacity: 1;
+    
 }
 
 nav {
